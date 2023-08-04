@@ -25,12 +25,6 @@ console.log(isAdd)
   const [stdCourse,setStdCourse]= useState((isEdit)?data[Id]?.Course:"")
   const [stdBatch,setStdBatch]=   useState((isEdit)?data[Id]?.Batch :"")
 
-  console.log(stdName)
-  console.log(stdAge)
-  console.log(stdCourse)
-  console.log(stdBatch)
-    
- 
     const handleClick=(e)=>{
     if(stdName!==""&&stdAge!==""&&stdCourse!==""&&stdBatch!==""){
 

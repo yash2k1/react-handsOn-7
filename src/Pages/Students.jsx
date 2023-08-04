@@ -4,7 +4,6 @@ import { useSelector } from "react-redux";
 
 const Students =()=> {                                                      
   const data=useSelector((state)=>state.StudentData.data)
-  // const data=useSelector((state)=>state.StudentData._currentValue  )
   console.log(data)
   const navigate=useNavigate()
   const ToForm=()=>{

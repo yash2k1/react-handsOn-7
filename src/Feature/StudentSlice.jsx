@@ -7,8 +7,6 @@ const StudentSlice=createSlice({
      reducers:{
        AddStudent:(state,action)=>{
         state.data.push(action.payload);
-        // console.log(state.data)
-        // console.log(state.StudentData)
        },
        EditStudent:(state,action)=>{
        state.data[action.payload.id].Name=action.payload.Name;
